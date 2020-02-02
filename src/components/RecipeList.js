@@ -5,7 +5,6 @@ import { connect } from 'react-redux'
 export const RecipeList = (props) => {
     return (
         <div>
-            {console.log(props)}
             {
                 props.recipes.length === 0 ? (
                     <div>

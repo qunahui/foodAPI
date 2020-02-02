@@ -9,7 +9,7 @@ import './styles/style.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase'
 import LoadingPage from './components/LoadingPage';
-import Fetch from './components/Fetch'
+import FetchRecipe from './components/FetchRecipe'
 const store = configureStore();
 
 const jsx = (
